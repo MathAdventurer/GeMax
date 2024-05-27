@@ -4,7 +4,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12.x-EE4C2C?logo=pytorch)](https://pytorch.org/)
 [![DGL](https://img.shields.io/badge/DGL-1.1.x-79589F?logo=dgl)](https://www.dgl.ai/)
 
-GeMax is an approximation method leveraging orthonormal representation for graph representation learning by maximizing graph entropy. This is the code repository for [[Paper](https://icml.cc/virtual/2024/poster/32687)]: "Learning Graph Representation via Graph Entropy Maximization (ICML 2024)".
+ This is the code repository for [[Paper](https://icml.cc/virtual/2024/poster/32687)]: "Learning Graph Representation via Graph Entropy Maximization (ICML 2024)". GeMax is an approximation method leveraging orthonormal representation for graph representation learning by maximizing graph entropy.
 
 ![GeMax Architecture](figures/GeMax.png)
 
