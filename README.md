@@ -73,7 +73,8 @@ GeMax/
     │   ├── __init__.py
     │   ├── gemax.py
     │   ├── gin.py
-    │   └── infograph.py
+    │   ├── infograph.py
+    │   └── ...
     ├── utils/
     │   ├── __init__.py
     │   ├── data_processing.py

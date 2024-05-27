@@ -32,7 +32,11 @@ def experiment_gemax(config):
     elif config["model"] == "gcn":
         model = GCN(in_features=in_features, hidden_features=config["hidden_dim"], out_features=config["out_dim"]).to(device)
     else:
-        raise ValueError(f"Unsupported model: {config['model']}")
+        try:
+            exec(f"from models.{config['model']} import {config['model']}")
+            exec(f"model = {config['model']}(in_features=in_features, hidden_features=config['hidden_dim'], out_features=config['out_dim']).to(device)")
+        except:
+            raise FileNotFoundError(f"Please add the corresponding GNN model script: {config['model']} in models directory.")
 
     optimizer = optim.Adam(model.parameters(), lr=config["lr"])
 
