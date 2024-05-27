@@ -4,7 +4,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12.x-EE4C2C?logo=pytorch)](https://pytorch.org/)
 [![DGL](https://img.shields.io/badge/DGL-1.1.x-79589F?logo=dgl)](https://www.dgl.ai/)
 
-GeMax is an approximation method leveraging orthonormal representation for graph representation learning by maximizing graph entropy. This is the Code Repository for [[Paper](https://icml.cc/virtual/2024/poster/32687)]: "Learning Graph Representation via Graph Entropy Maximization (ICML 2024)".
+GeMax is an approximation method leveraging orthonormal representation for graph representation learning by maximizing graph entropy. This is the code repository for [[Paper](https://icml.cc/virtual/2024/poster/32687)]: "Learning Graph Representation via Graph Entropy Maximization (ICML 2024)".
 
 ![GeMax Architecture](figures/GeMax.png)
 
@@ -22,7 +22,7 @@ conda env create -f environment.yaml
 conda activate gemax
 ```
 
-**Note:** GeMax requires CUDA (version >= 11.3) and an NVIDIA GPU. The project depends on PyTorch, Deep Graph Library (DGL), NetworkX, and scikit-learn libraries. For more information, see the `environment.yaml` file.
+**Note:** GeMax requires [NVIDIA CUDA (version >= 11.3)](https://developer.nvidia.com/cuda-toolkit) and NVIDIA GPUs. The project depends on [PyTorch](https://pytorch.org/), [Deep Graph Library (DGL)](https://www.dgl.ai/), [NetworkX](https://networkx.org), and [scikit-learn](https://scikit-learn.org/) libraries, etc. For more information, see the `environment.yaml` file.
 
 ## Usage
 
@@ -92,7 +92,7 @@ GeMax/
 ## Citation
 
 If you find this work useful, please cite our paper:
-TBD
+TBA after proceedings are published.
 <!-- ```bibtex
 @inproceedings{your_paper,
   title={Learning Graph Representation via Graph Entropy Maximization},
