@@ -94,14 +94,22 @@ GeMax/
 
 If you find this work useful, please cite our paper:
 TBA after proceedings are published.
-<!-- ```bibtex
-@inproceedings{your_paper,
-  title={Learning Graph Representation via Graph Entropy Maximization},
-  author={Your Name and Co-authors},
-  booktitle={Conference or Journal Name},
-  year={2023}
+```bibtex
+@InProceedings{pmlr-v235-sun24i,
+  title = 	 {Learning Graph Representation via Graph Entropy Maximization},
+  author =       {Sun, Ziheng and Wang, Xudong and Ding, Chris and Fan, Jicong},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {47133--47158},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/sun24i/sun24i.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/sun24i.html}
 }
-``` -->
+```
 
 ## License
 
