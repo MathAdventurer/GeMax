@@ -93,7 +93,7 @@ GeMax/
 ## Citation
 
 If you find this work useful, please cite our paper:
-TBA after proceedings are published.
+
 ```bibtex
 @InProceedings{pmlr-v235-sun24i,
   title = 	 {Learning Graph Representation via Graph Entropy Maximization},
