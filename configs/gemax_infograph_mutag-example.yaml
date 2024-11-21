@@ -1,0 +1,14 @@
+# GeMax: Learning Graph Representation via Graph Entropy Maximization
+dataset: MUTAG
+mode: train
+model: infograph
+batch_size: 188
+hidden_dim: 128
+out_dim: 64
+lr: 0.001
+lr_A:0.001
+num_epochs: 5
+eval_every: 1
+mu: 0.1
+gamma: 0.5
+seed: 4
